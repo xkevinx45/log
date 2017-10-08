@@ -895,3 +895,48 @@
 [66300.810916] device vnet0 left promiscuous mode
 [66300.810929] virbr0: port 2(vnet0) entered disabled state
 [66541.916674] EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+[67091.835264] deepin-notifica[846]: segfault at 0 ip 0000561d6b670d88 sp 00007ffd77453780 error 4 in deepin-notifications[561d6b656000+39000]
+[67577.287125] virbr0: port 2(vnet0) entered blocking state
+[67577.287129] virbr0: port 2(vnet0) entered disabled state
+[67577.287192] device vnet0 entered promiscuous mode
+[67577.287331] virbr0: port 2(vnet0) entered blocking state
+[67577.287332] virbr0: port 2(vnet0) entered listening state
+[67577.685269] qemu-system-x86: sending ioctl 5326 to a partition!
+[67578.241152] vfio_ecap_init: 0000:01:00.0 hiding ecap 0x19@0x900
+[67579.399941] virbr0: port 2(vnet0) entered learning state
+[67579.774759] vfio-pci 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0xffff
+[67579.774766] vfio-pci 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0xffff
+[67581.537007] virbr0: port 2(vnet0) entered forwarding state
+[67581.537011] virbr0: topology change detected, propagating
+[67590.523786] virbr0: port 2(vnet0) entered disabled state
+[67590.525108] device vnet0 left promiscuous mode
+[67590.525110] virbr0: port 2(vnet0) entered disabled state
+[68793.530246] virbr0: port 2(vnet0) entered blocking state
+[68793.530258] virbr0: port 2(vnet0) entered disabled state
+[68793.530302] device vnet0 entered promiscuous mode
+[68793.531423] virbr0: port 2(vnet0) entered blocking state
+[68793.531425] virbr0: port 2(vnet0) entered listening state
+[68793.612090] qemu-system-x86: sending ioctl 5326 to a partition!
+[68794.234087] vfio_ecap_init: 0000:01:00.0 hiding ecap 0x19@0x900
+[68795.720966] virbr0: port 2(vnet0) entered learning state
+[68797.851729] virbr0: port 2(vnet0) entered forwarding state
+[68797.851730] virbr0: topology change detected, propagating
+[68800.337987] vfio-pci 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0xffff
+[68800.338023] vfio-pci 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55, got 0xffff
+[68805.057296] virbr0: port 2(vnet0) entered disabled state
+[68805.065721] device vnet0 left promiscuous mode
+[68805.065725] virbr0: port 2(vnet0) entered disabled state
+[69035.362026] [drm:intel_pipe_update_end [i915]] *ERROR* Atomic update failure on pipe A (start=328044 end=328045) time 138 us, min 763, max 767, scanline start 762, end 768
+[69098.524866] virbr0: port 2(vnet0) entered blocking state
+[69098.524870] virbr0: port 2(vnet0) entered disabled state
+[69098.524936] device vnet0 entered promiscuous mode
+[69098.525319] virbr0: port 2(vnet0) entered blocking state
+[69098.525323] virbr0: port 2(vnet0) entered listening state
+[69098.637346] qemu-system-x86: sending ioctl 5326 to a partition!
+[69099.174999] vfio_ecap_init: 0000:01:00.0 hiding ecap 0x19@0x900
+[69100.698425] virbr0: port 2(vnet0) entered learning state
+[69102.835715] virbr0: port 2(vnet0) entered forwarding state
+[69102.835716] virbr0: topology change detected, propagating
+[69139.841498] virbr0: port 2(vnet0) entered disabled state
+[69139.847709] device vnet0 left promiscuous mode
+[69139.847723] virbr0: port 2(vnet0) entered disabled state
