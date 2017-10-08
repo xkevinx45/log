@@ -1,0 +1,4 @@
+ #!/bin/sh
+exec /usr/libexec/qemu-kvm \
+ `echo "\$@" | \
+ sed |01:00.0|01:00.0,x-vga=on|g'`
