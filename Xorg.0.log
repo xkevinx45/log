@@ -1,0 +1,92 @@
+[     5.235] 
+X.Org X Server 1.19.4
+Release Date: 2017-10-04
+[     5.235] X Protocol Version 11, Revision 0
+[     5.235] Build Operating System: Linux 4.12.12-1-ARCH x86_64 
+[     5.235] Current Operating System: Linux archmachine 4.13.4-1-ARCH #1 SMP PREEMPT Thu Sep 28 08:39:52 CEST 2017 x86_64
+[     5.235] Kernel command line: BOOT_IMAGE=../vmlinuz-linux root=/dev/sdc2 intel_iommu=on initrd=../initramfs-linux.img
+[     5.235] Build Date: 05 October 2017  03:52:55AM
+[     5.235]  
+[     5.235] Current version of pixman: 0.34.0
+[     5.235] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     5.235] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     5.235] (==) Log file: "/var/log/Xorg.0.log", Time: Sat Oct  7 20:47:43 2017
+[     5.235] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[     5.235] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     5.235] (==) No Layout section.  Using the first Screen section.
+[     5.235] (==) No screen section available. Using defaults.
+[     5.235] (**) |-->Screen "Default Screen Section" (0)
+[     5.235] (**) |   |-->Monitor "<default monitor>"
+[     5.235] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[     5.235] (**) |   |-->Device "Screen0"
+[     5.235] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     5.235] (==) Automatically adding devices
+[     5.235] (==) Automatically enabling devices
+[     5.235] (==) Automatically adding GPU devices
+[     5.235] (==) Automatically binding GPU devices
+[     5.235] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     5.235] (WW) The directory "/usr/share/fonts/Type1/" does not exist.
+[     5.235] 	Entry deleted from font path.
+[     5.235] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi/".
+[     5.235] 	Entry deleted from font path.
+[     5.235] 	(Run 'mkfontdir' on "/usr/share/fonts/100dpi/").
+[     5.235] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi/".
+[     5.235] 	Entry deleted from font path.
+[     5.235] 	(Run 'mkfontdir' on "/usr/share/fonts/75dpi/").
+[     5.235] (==) FontPath set to:
+	/usr/share/fonts/misc/,
+	/usr/share/fonts/TTF/,
+	/usr/share/fonts/OTF/
+[     5.235] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     5.235] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     5.235] (II) Loader magic: 0x5582e795ed60
+[     5.235] (II) Module ABI versions:
+[     5.235] 	X.Org ANSI C Emulation: 0.4
+[     5.235] 	X.Org Video Driver: 23.0
+[     5.235] 	X.Org XInput driver : 24.1
+[     5.235] 	X.Org Server Extension : 10.0
+[     5.235] (++) using VT number 7
+
+[     5.235] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     5.236] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     5.251] (--) PCI: (0:0:2:0) 8086:1912:1458:d000 rev 6, Mem @ 0xed000000/16777216, 0xc0000000/268435456, I/O @ 0x0000f000/64
+[     5.251] (--) PCI:*(0:1:0:0) 10de:1c02:1458:3724 rev 161, Mem @ 0xee000000/16777216, 0xd0000000/268435456, 0xe0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/131072
+[     5.251] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[     5.251] (II) LoadModule: "glx"
+[     5.251] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     5.252] (II) Module glx: vendor="X.Org Foundation"
+[     5.252] 	compiled for 1.19.4, module version = 1.0.0
+[     5.252] 	ABI class: X.Org Server Extension, version 10.0
+[     5.252] (II) LoadModule: "intel"
+[     5.252] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[     5.252] (II) Module intel: vendor="X.Org Foundation"
+[     5.252] 	compiled for 1.19.3, module version = 2.99.917
+[     5.252] 	Module class: X.Org Video Driver
+[     5.252] 	ABI class: X.Org Video Driver, version 23.0
+[     5.252] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[     5.252] (II) intel: Driver for Intel(R) HD Graphics
+[     5.252] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[     5.252] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[     5.253] (II) intel(G0): Using Kernel Mode Setting driver: i915, version 1.6.0 20170619
+[     5.253] (II) intel(G0): SNA compiled from 2.99.917-781-gc8990575
+[     5.253] (EE) No devices detected.
+[     5.253] (EE) 
+Fatal server error:
+[     5.253] (EE) no screens found(EE) 
+[     5.253] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[     5.253] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[     5.253] (EE) 
+[     5.270] (EE) Server terminated with error (1). Closing log file.
